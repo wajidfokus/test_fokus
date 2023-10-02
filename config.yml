@@ -1,0 +1,5 @@
+development:
+  password: shptka_2d7b4571f65bafaff027ab8131380eb0
+  theme_id: "161914159414" #Live
+  store: test-fokus-test.myshopify.com
+  timeout: 3000s
