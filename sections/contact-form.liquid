@@ -98,7 +98,28 @@
             </small>
           {%- endif -%}
         </div>
+
+
+
+
+      <div class="field">
+        <input
+          type="tel"
+          id="ContactForm-cell"
+          class="field__input"
+          autocomplete="tel"
+          name="contact['cell']"
+          pattern="[0-9\-]*"
+          value=""
+          placeholder="+93 23 8454387"
+        >
+        <label class="field__label" for="ContactForm-cell">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+
+      </div>
+
+
+    
       <div class="field">
         <input
           type="tel"
@@ -112,6 +133,10 @@
         >
         <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
       </div>
+
+
+
+    
       <div class="field">
         <textarea
           rows="10"
